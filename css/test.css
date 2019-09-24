@@ -18,10 +18,9 @@
   font-family: "Fort medium";
   src: url("../fonts/fortmedium.woff2");
 }
-
 body{
     background-color: #111;
-    font-family: Fort medium, sans-serif;
+    font-family: Fort light, sans-serif;
 }
 
 h1, h2{
@@ -86,8 +85,8 @@ a:active, a:hover{
 	list-style:none;
 }
 .services-links h3{
-		font-size: 16px;
-	}
+	font-size: 16px;
+}
 
 .description{
 	font-family: Fort light, sans-serif;
@@ -104,7 +103,7 @@ a:active, a:hover{
 	padding: 20px 50px;
 }
 .services{
-	background-image: url(../img/submenu-hover.png);
+	background: url(../img/submenu-hover.png) #000000;
     background-position: 50% 0;
     background-size: cover;
     z-index: 2;
@@ -141,12 +140,12 @@ a:active, a:hover{
 	}
 }
 .icon{
-		visibility: hidden;
-	    width: 1em;
-	    height: 1em;
-	    stroke-width: 0;
-	    left: 40%;
-	    position: relative;
+	visibility: hidden;
+	width: 1em;
+	height: 1em;
+	stroke-width: 0;
+	left: 40%;
+	position: relative;
 }
 .button{
 	position: relative;

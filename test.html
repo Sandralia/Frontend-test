@@ -6,8 +6,9 @@
 <title>Frontend test Sandra Fraile</title>
 <link rel="stylesheet" type="text/css"  href="css/test.css">
 
-</head>
 
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <body>
 	<div class="services-section">
 	<h1 class="title">What we do</h1>
@@ -68,3 +69,20 @@
 	</div>
 </body>
 </html>
+
+
+<script>
+if($(window).width() > 767){
+	$(document).ready(function(){
+	  $(".services").mouseover(function(){
+	    $("body").css("background-image", "url(img/trees.jpg)");
+	    $("body").css("background-repeat", "no-repeat");
+	    $("body").css("background-size", "cover");
+	  });
+	  $(".services").mouseout(function(){
+	    $("body").css("background-color", "black");
+	    $("body").css("background-image", "none");
+	  });
+	});
+};
+</script>
